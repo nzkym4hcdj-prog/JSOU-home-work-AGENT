@@ -1,0 +1,30 @@
+# Runtime materials and private deliverables
+/work/
+/outputs/
+
+# Operating system and editor metadata
+.DS_Store
+._*
+Thumbs.db
+.idea/
+.vscode/
+
+# Credentials and browser state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+cookies*.json
+session*.json
+storage-state*.json
+storageState*.json
+/playwright/.auth/
+/auth/
+/browser-profile/
+
+# Runtime caches
+__pycache__/
+*.pyc
+node_modules/
+*.log
