@@ -1,0 +1,4 @@
+interface:
+  display_name: "开放大学作业助手"
+  short_description: "识别开放大学网页作业、生成答案后直接填写，核对完成并保留页面"
+  default_prompt: "使用 $open-university-homework 识别这个作业页面，得出答案后直接填写并核对，主观题通过键盘输入；无需再次征求填写同意，不保存草稿、不提交作业。"
